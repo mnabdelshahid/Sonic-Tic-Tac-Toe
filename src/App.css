@@ -1,0 +1,62 @@
+h2{
+  font-family:fantasy;
+  font-size: 100px;
+  margin-top: auto;
+}
+
+h3{
+  font-family:cursive;
+  font-size: 60px;
+  height: 100px;
+  margin-left: 250px;
+  margin-top:-125px;
+}
+
+#gameboard{
+    padding: 0px;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    margin-top: 0px;
+    margin-bottom: auto;
+}
+#tie{
+  padding: 0px;
+  margin: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 0px;
+  margin-bottom: auto;
+}
+#OWins{
+  padding: 0px;
+  margin: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 0px;
+  margin-bottom: auto;
+}
+#XWins{
+  padding: 0px;
+  margin: 200px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  margin-top: 0px;
+  margin-bottom: auto;
+}
+
+.Squares{
+  float: right;
+  clear: left;
+  width: 200px;
+  height: 200px;
+}
+body{
+    background-image: url('https://www.itl.cat/pngfile/big/22-228254_5-playable-characters-cartoon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: inherit;
+    background-attachment: fixed;
+    position:absolute;
+}
